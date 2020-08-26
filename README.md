@@ -39,7 +39,7 @@ Even though these templates are designed to be better and faster, some of you mi
 ### Barebones Class
 - Absolutely nothing. Just an empty class.
 - Class does not inherit from ```MonoBehaviour``` .
-- Removed ```System.Collections.Generic;``` 
+- Removed ```System.Collections``` and ```System.Collections.Generic``` 
 - Curly brackets are opened and at the same height.
 - Class access defaulted to ```public```.
 
