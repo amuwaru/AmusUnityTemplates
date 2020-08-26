@@ -1,4 +1,4 @@
-//made with amu's unity c# templates
+//made with amuwaru's unity c# templates
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -22,11 +22,11 @@ internal class #SCRIPTNAME# : MonoBehaviour
      #endregion
      #region METHODS
          //-magic-\\
-         public void Awake() {} //Awake is called when the script instance is being loaded.
-         public void Start() {} //Start is called on the frame when a script is enabled.
-         public void Update() {} //Update is called every frame.
-         public void FixedUpdate() {} //FixedUpdate is called multiple times per frame. Use for physics calculations.
-         public void LateUpdate() {}  //LateUpdate is called after all Update functions have been called.
+         void Awake() {} //Awake is called when the script instance is being loaded.
+         void Start() {} //Start is called on the frame when a script is enabled.
+         void Update() {} //Update is called every frame.
+         void FixedUpdate() {} //FixedUpdate is called multiple times per frame. Use for physics calculations.
+         void LateUpdate() {}  //LateUpdate is called after all Update functions have been called.
          //-public-\\
          //-internal-\\
          //-protected internal-\\
